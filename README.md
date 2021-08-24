@@ -17,10 +17,10 @@ chrome://extensions/shortcuts
   * `MacOS` **⌘ ⇧ ↓**
 
 #### Install
-https://chrome.google.com/webstore/detail/tab-toggle/???
+https://chrome.google.com/webstore/detail/tab-shift/???
 
 #### Build
-`zip -r -j tab-toggle.zip src/*`
+`zip -r -j tab-shift.zip src/*`
 
 #### Release
 Upload at https://chrome.google.com/webstore/developer/dashboard
