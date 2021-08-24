@@ -1,26 +1,27 @@
 # chrome-tab-shift-extension
-This extension will add a shortcuts to shift tabs.
+This extension adds shortcuts to shift tabs.
 
 #### Shortcuts
 chrome://extensions/shortcuts
 * Shift Left: 
   * **Ctrl ⇧ ←** 
-  * `MacOS` **⌘ ⇧ ←**
+  * `MacOS` **⌃ ⌘ ←**
 * Shift Right: 
   * **Ctrl ⇧ →** 
-  * `MacOS` **⌘ ⇧ →**
+  * `MacOS` **⌃ ⌘ →**
 * Shift to Left Edge:
   *  **Ctrl ⇧ ↑** 
-  * `MacOS` **⌘ ⇧ ↑**
+  * `MacOS` **⌃ ⌘ ↑**
 * Shift to Right Edge:
   *  **Ctrl ⇧ ↓** 
-  * `MacOS` **⌘ ⇧ ↓**
+  * `MacOS` **⌃ ⌘ ↓**
 
 #### Install
 https://chrome.google.com/webstore/detail/tab-shift/???
 
 #### Build
-`zip -r -j tab-shift.zip src/*`
+`zip -r -j tab-shift.zip *`
 
 #### Release
 Upload at https://chrome.google.com/webstore/developer/dashboard
+

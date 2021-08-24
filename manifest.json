@@ -1,0 +1,55 @@
+{
+  "name": "Tab Shift",
+  "description": "This extension adds shortcuts to shift tabs.",
+  "version": "1.1.0",
+  "author": "Bengt Brodersen",
+  
+  "manifest_version": 3,
+
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "commands": {
+    "shift-tab-left": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Left",
+        "mac": "MacCtrl+Command+Left"
+      },
+      "description": "Shift Tab to Left"
+    },
+    "shift-tab-right": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Right",
+        "mac": "MacCtrl+Command+Right"
+      },
+      "description": "Shift Tab to Right"
+    },
+
+    "shift-tab-left-edge": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Up",
+        "mac": "MacCtrl+Command+Up"
+      },
+      "description": "Shift Tab to Left Edge"
+    },
+    "shift-tab-right-edge": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Down",
+        "mac": "MacCtrl+Command+Down"
+      },
+      "description": "Shift Tab to Right Edge"
+    }    
+  },
+  
+  "icons": {
+    "16":  "icon-16.png",
+    "48":  "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
