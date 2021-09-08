@@ -10,13 +10,13 @@ chrome://extensions/shortcuts
   * `MacOS` **⌃ ⌘ ←**
 * Shift Right: 
   * **Ctrl ⇧ →** 
-  * `MacOS` **⌃ ⌘ →**
+  * `MacOS` **⌃ ⇧ →**
 * Shift to Left Edge:
   *  **Ctrl ⇧ ↑** 
-  * `MacOS` **⌃ ⌘ ↑**
+  * `MacOS` **⌃ ⇧ ↑**
 * Shift to Right Edge:
   *  **Ctrl ⇧ ↓** 
-  * `MacOS` **⌃ ⌘ ↓**
+  * `MacOS` **⌃ ⇧ ↓**
 
 #### Build
 `zip -r -j tab-shift.zip *`
